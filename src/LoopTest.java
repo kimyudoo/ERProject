@@ -14,7 +14,7 @@ public class LoopTest {
 			for(int subIndex = 0; subIndex < subMaxCount; subIndex++) {
 				compareIndex = index / (int)Math.pow(10, subIndex);
 				if( (compareIndex % 10 == 3) || (compareIndex % 10 == 6) || (compareIndex % 10 == 9) ) {
-					System.out.print("(¦) ");
+					System.out.print("¦! ");
 				}				
 			}
 			System.out.printf("%d\n", index);
